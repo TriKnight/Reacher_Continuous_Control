@@ -1,6 +1,8 @@
 # Reacher_Continuous_Control
 Reacher Continuous Control using DDPG
 ### Reacher Enviroment
+![Reacher](https://github.com/TriKnight/Reacher_Continuous_Control/blob/master/misc/reacher.gif)
+
 
 - Set-up: Double-jointed arm which can move to target locations.
 - Goal: The agents must move its hand to the goal location, and keep it there.
