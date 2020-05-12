@@ -41,9 +41,11 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 
 - ***Observations***: Each agent receives an observation consisting of a 33-dimensional vector with measurements like relative position and orientations of the links, relative position of the goal and its speed, etc..
+
 ![Obseravations](https://github.com/TriKnight/Reacher_Continuous_Control/blob/master/misc/img_reacher_environment_observations.png)
 
 - ***Actions***: Each agent moves its arm around by applying actions consisting of 4 torques applied to each of the 2 actuated joints (2 torques per joint).
+
 ![Actions](https://github.com/TriKnight/Reacher_Continuous_Control/blob/master/misc/img_reacher_environment_actions.png)
 
 - ***Rewards***: Each agent gets a reward of +0.1 each step its end effector is within the limits of the goal. The environment is considered solved once the agent gets an average reward of +30 over 100 episodes.
