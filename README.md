@@ -51,5 +51,6 @@ The environment is considered solved, when the average (over 100 episodes) of th
 - ***Rewards***: Each agent gets a reward of +0.1 each step its end effector is within the limits of the goal. The environment is considered solved once the agent gets an average reward of +30 over 100 episodes.
 
 
+# References
 
 
