@@ -61,7 +61,8 @@ In this version we use Deep Deterministic Policy Gradient (DDPG) to solve proble
 
 
 # References
--  ![1. Open AI DDPG Algorithms](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#id7)
--  ![2. Gregor Blog](https://github.com/wpumacay/DeeprlND-projects/tree/master/project2-continuous-control)
+-  ![CONTROL  WITH  DEEP  REINFORCEMENTLEARNING](https://arxiv.org/pdf/1509.02971.pdf)
+-  ![Open AI DDPG Algorithms](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#id7)
+-  ![Gregor Blog](https://github.com/wpumacay/DeeprlND-projects/tree/master/project2-continuous-control)
 
 
