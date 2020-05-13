@@ -3,7 +3,7 @@ Reacher Continuous Control using DDPG
 ### Reacher Enviroment
 ![Reacher](https://github.com/TriKnight/Reacher_Continuous_Control/blob/master/misc/reacher.gif)
 
-### Solving the Environment
+## 1. Environment
 
 Note that your project submission need only solve one of the two versions of the environment 1 agent and 20 agents
 
@@ -51,7 +51,7 @@ The barrier for solving the second version of the environment is slightly differ
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
 
-### Solve the First Version Reacher One Arm
+## 2. Solve the First Version Reacher One Arm
 In this version we use Deep Deterministic Policy Gradient (DDPG) to solve problem.
 
 - DDPG is an off-policy algorithm.
@@ -59,6 +59,13 @@ In this version we use Deep Deterministic Policy Gradient (DDPG) to solve proble
 - DDPG can be thought of as being deep Q-learning for continuous action spaces.
 - The Spinning Up implementation of DDPG does not support parallelization.
 
+The Q-Learning Side of DDPG
+
+First, let’s recap the Bellman equation describing the optimal action-value function, Q^*(s,a). It’s given by
+
+Q^*(s,a) = \underset{s' \sim P}{{\mathrm E}}\left[r(s,a) + \gamma \max_{a'} Q^*(s', a')\right]
+
+where s' \sim P is shorthand for saying that the next state, s', is sampled by the environment from a distribution P(\cdot| s,a).
 
 # References
 
