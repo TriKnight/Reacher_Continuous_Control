@@ -61,5 +61,6 @@ In this version we use Deep Deterministic Policy Gradient (DDPG) to solve proble
 
 
 # References
+![Open AI DDPG Algorithms](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#id7)
 
 
