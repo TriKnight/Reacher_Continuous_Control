@@ -61,11 +61,11 @@ In this version we use Deep Deterministic Policy Gradient (DDPG) to solve proble
 
 The Q-Learning Side of DDPG
 
-First, let’s recap the Bellman equation describing the optimal action-value function, Q^*(s,a). It’s given by
+First, let’s recap the Bellman equation describing the optimal action-value function, $Q^*(s,a)$. It’s given by
 
-Q^*(s,a) = \underset{s' \sim P}{{\mathrm E}}\left[r(s,a) + \gamma \max_{a'} Q^*(s', a')\right]
+$Q^*(s,a) = \underset{s' \sim P}{{\mathrm E}}\left[r(s,a) + \gamma \max_{a'} Q^*(s', a')\right]$
 
-where s' \sim P is shorthand for saying that the next state, s', is sampled by the environment from a distribution P(\cdot| s,a).
+where  s' \sim P is shorthand for saying that the next state, s', is sampled by the environment from a distribution P(\cdot| s,a).
 
 # References
 
