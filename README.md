@@ -41,6 +41,8 @@ The task is episodic, and in order to solve the environment,  your agent must ge
 
 - ***Rewards***: Each agent gets a reward of +0.1 each step its end effector is within the limits of the goal. The environment is considered solved once the agent gets an average reward of +30 over 100 episodes.
 
+
+
 #### Option 2: Solve the Second Version
 
 The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents.  In particular, your agents must get an average score of +30 (over 100 consecutive episodes, and over all agents).  Specifically,
@@ -48,6 +50,14 @@ The barrier for solving the second version of the environment is slightly differ
 - This yields an **average score** for each episode (where the average is over all 20 agents).
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
+
+### Solve the First Version Reacher One Arm
+In this version we use Deep Deterministic Policy Gradient (DDPG) to solve problem.
+
+- DDPG is an off-policy algorithm.
+- DDPG can only be used for environments with continuous action spaces.
+- DDPG can be thought of as being deep Q-learning for continuous action spaces.
+- The Spinning Up implementation of DDPG does not support parallelization.
 
 
 # References
