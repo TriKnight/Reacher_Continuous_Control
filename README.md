@@ -32,10 +32,10 @@ pip install -e .
 
 # git clone DQN_Navigation_Project
 cd ..
-git clone https://github.com/TriKnight/DQN_Navigation_Project
+https://github.com/TriKnight/Reacher_Continuous_Control
 
 # install the requirements from our package
-cd DQN_Navigation_Project
+cd Reacher_Continuous_Control
 pip install -r requirements.txt
 
 ```
