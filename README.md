@@ -44,17 +44,16 @@ pip install -r requirements.txt
 conda install -c anaconda ipykernel
 python -m ipykernel install  --user --name=DQN_navigation
 ```
-Open Jupyter notebok. 
+1. Open Jupyter notebok. 
 ```
 jupyter notebook
 ```
+2. Open Reacher_Continuous_Control
 
-Go to ```Kernel/Change Kernel/DQN_navigation```
 
-Cd to Reacher_Continuous_Control
-```
-cd Reacher_Continuous_Control
-```
+3. Change the Kernel ```Kernel/Change Kernel/DQN_navigation```
+
+
 
 ## 2. Environment
 
