@@ -3,7 +3,8 @@ Reacher Continuous Control using DDPG
 ### Reacher Enviroment
 ![Reacher](https://github.com/TriKnight/Reacher_Continuous_Control/blob/master/misc/reacher.gif)
 
-## 1. Environment
+## 1. Setup Environment and Install Requirements (![Setup Link](https://github.com/TriKnight/DQN_Navigation_Project/blob/master/README.md))
+## 2. Environment
 
 Note that your project submission need only solve one of the two versions of the environment 1 agent and 20 agents
 
