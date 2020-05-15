@@ -3,7 +3,54 @@ Reacher Continuous Control using DDPG
 ### Reacher Enviroment
 ![Reacher](https://github.com/TriKnight/Reacher_Continuous_Control/blob/master/misc/reacher.gif)
 
-## 1. Setup Environment and Install Requirements (![Setup Link](https://github.com/TriKnight/DQN_Navigation_Project/blob/master/README.md))
+## 1. Setup Environment and Install Requirements 
+The Project use the MLAngents version 0.4.0 so we need to do some following steps
+### 1.1 Install Anaconda & Create virtual environment using conda
+Install Anaconda following link bellow
+
+https://www.anaconda.com/products/individual
+
+Create virtual environment
+
+```
+# Create the virtual env DQN
+conda create -n DQN_navigation python=3.6
+# activate environment
+source activate DQN_navigation
+```
+### 1.2 Install all dependence
+```
+
+# clone the udacity repo
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+
+# go to the python folder of the repo
+cd deep-reinforcement-learning/python
+
+# install the unityagents package from this folder
+pip install -e .
+
+# git clone DQN_Navigation_Project
+cd ..
+git clone https://github.com/TriKnight/DQN_Navigation_Project
+
+# install the requirements from our package
+cd DQN_Navigation_Project
+pip install -r requirements.txt
+
+```
+### 1.3 Create and Adding Kernel to Jupyter notebook
+```
+conda install -c anaconda ipykernel
+python -m ipykernel install  --user --name=DQN_navigation
+```
+Open Jupyter notebok. 
+```
+jupyter notebook
+```
+
+Go to ```Kernel/Change Kernel/DQN_navigation```
+
 ## 2. Environment
 
 Note that your project submission need only solve one of the two versions of the environment 1 agent and 20 agents
