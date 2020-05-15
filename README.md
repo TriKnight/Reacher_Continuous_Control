@@ -51,6 +51,11 @@ jupyter notebook
 
 Go to ```Kernel/Change Kernel/DQN_navigation```
 
+Cd to Reacher_Continuous_Control
+```
+cd Reacher_Continuous_Control
+```
+
 ## 2. Environment
 
 Note that your project submission need only solve one of the two versions of the environment 1 agent and 20 agents
