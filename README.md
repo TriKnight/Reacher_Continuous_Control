@@ -115,12 +115,12 @@ The Neural network of the Actor-Critic
 ![Actor-Critic Network](https://github.com/TriKnight/Reacher_Continuous_Control/blob/master/misc/actor_critic_networks.png)
 
 # References
--  ![CONTROL  WITH  DEEP  REINFORCEMENTLEARNING](https://arxiv.org/pdf/1509.02971.pdf)
--  ![Reproducibility of Benchmarked DRL Tasks for Continuous Control](https://arxiv.org/pdf/1708.04133.pdf)
--  ![Parameter Noise](https://openai.com/blog/better-exploration-with-parameter-noise/)
--  ![Open AI DDPG Algorithms](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#id7)
--  ![Gregor Blog](https://github.com/wpumacay/DeeprlND-projects/tree/master/project2-continuous-control)
--  ![Silviomori Github](https://github.com/silviomori/udacity-deep-reinforcement-learning-p2-continuous-control)
+-  [CONTROL  WITH  DEEP  REINFORCEMENTLEARNING](https://arxiv.org/pdf/1509.02971.pdf)
+-  [Reproducibility of Benchmarked DRL Tasks for Continuous Control](https://arxiv.org/pdf/1708.04133.pdf)
+-  [Parameter Noise](https://openai.com/blog/better-exploration-with-parameter-noise/)
+-  [Open AI DDPG Algorithms](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#id7)
+-  [Gregor Blog](https://github.com/wpumacay/DeeprlND-projects/tree/master/project2-continuous-control)
+-  [Silviomori Github](https://github.com/silviomori/udacity-deep-reinforcement-learning-p2-continuous-control)
 
 
 
