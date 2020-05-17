@@ -120,7 +120,7 @@ The Neural network of the Actor-Critic
 -  [Parameter Noise](https://openai.com/blog/better-exploration-with-parameter-noise/)
 -  [Open AI DDPG Algorithms](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#id7)
 -  [Gregor Blog](https://github.com/wpumacay/DeeprlND-projects/tree/master/project2-continuous-control)
--  [Silviomori Github](https://github.com/silviomori/udacity-deep-reinforcement-learning-p2-continuous-control)
+-  [Silviomori Blog](https://github.com/silviomori/udacity-deep-reinforcement-learning-p2-continuous-control)
 
 
 
