@@ -104,7 +104,7 @@ The barrier for solving the second version of the environment is slightly differ
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
 
 ## 3. DDPG Algorithms
-![DDPG Algorithms](misc/DDPG Algorithms.png)
+![DDPG Algorithms](https://github.com/TriKnight/Reacher_Continuous_Control/blob/master/misc/DDPG%20Algorithms.png)
 ## 4. Solve the First Version Reacher One Arm
 In this version we use Deep Deterministic Policy Gradient (DDPG) to solve problem.
 
