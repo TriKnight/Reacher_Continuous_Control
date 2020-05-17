@@ -121,7 +121,7 @@ The Neural network of the Actor-Critic
 -  [Reproducibility of Benchmarked DRL Tasks for Continuous Control](https://arxiv.org/pdf/1708.04133.pdf)
 -  [Parameter Noise](https://openai.com/blog/better-exploration-with-parameter-noise/)
 -  [Open AI DDPG Algorithms](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#id7)
--  [Gregor Blog](https://github.com/wpumacay/DeeprlND-projects/tree/master/project2-continuous-control)
+-  [Wpumacay Blog](https://wpumacay.github.io/projects.html)
 -  [Silviomori Blog](https://github.com/silviomori/udacity-deep-reinforcement-learning-p2-continuous-control)
 
 
